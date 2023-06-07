@@ -1,0 +1,19 @@
+# aliases
+alias zrc="$EDITOR $ZDOTDIR/.zshrc"
+alias ls='ls --color=auto'
+alias la='ls -a --color=auto'
+alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
+alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
+
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
+
+# for installing/updating plugins
+alias zupdate="sh $ZDOTDIR/zsh-updater.sh"
