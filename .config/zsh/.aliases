@@ -1,5 +1,5 @@
 # aliases
-alias zrc="$EDITOR $ZDOTDIR/.zshrc"
+alias zrc='$EDITOR $ZDOTDIR/.zshrc'
 alias ls='ls --color=auto'
 alias la='ls -a --color=auto'
 alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
@@ -11,9 +11,12 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
 # confirm before overwriting something
-alias cp="cp -i"
+alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
 # for installing/updating plugins
 alias zupdate="sh $ZDOTDIR/zsh-updater.sh"
+
+#for lf wrapper
+alias lf='lf-run'
